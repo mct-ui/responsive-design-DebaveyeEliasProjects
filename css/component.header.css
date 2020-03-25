@@ -5,12 +5,15 @@
 */
 
 .c-header__nav {
+    display:none;
 }
 
 @media (min-width: 992px) {
     .c-header {
+        display: flex;
     }
 
     .c-header__nav {
+        display: b;
     }
 }
