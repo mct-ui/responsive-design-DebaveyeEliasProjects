@@ -226,6 +226,10 @@ a:focus {
 
 /* size modifiers */
 
+.o-row__gray{
+    background-color: #F7F7F7;
+}
+
 .o-row--lg {
     padding: 48px 24px 24px;
 }
@@ -435,6 +439,10 @@ a:focus {
     padding: 8px 0;
 }
 
+.c-nav__link{
+    text-decoration: none;
+}
+
 .c-nav__link,
 .c-nav__link:visited,
 .c-nav__link:active {
@@ -443,7 +451,7 @@ a:focus {
 
 .c-nav__link:hover,
 .c-nav__link:focus {
-    color: #5051db;
+    color: #00807B;
 }
 
 .c-nav__item {
