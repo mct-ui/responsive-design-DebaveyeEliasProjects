@@ -510,8 +510,16 @@ a:focus {
         justify-content: space-around;
         align-items: center;
     }
+    .c-footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
     .c-header__nav {
+        display: block;
+    }
+    .c-footer__nav {
         display: block;
     }
 }
@@ -579,6 +587,7 @@ a:focus {
     .c-nav__link {
         padding: 8px 16px;
     }
+    
 }
 
 /*
